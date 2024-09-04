@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Hybrid Pacakage</title>
+    <title>Catalogs</title>
     <link rel="icon" href="img/logo.png" type="img/icon">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
@@ -79,8 +79,7 @@
             <div class="navbar-nav ms-auto p-4 p-lg-0">
                 <a href="index.html" class="nav-item nav-link">Home</a>
                 <a href="about.html" class="nav-item nav-link">About</a>
-                <a href="catelog.html" class="nav-item nav-link">Catalog</a>
-                <a href="package.html" class="nav-item nav-link active">Packages</a>
+                <a href="catalog.html" class="nav-item nav-link active">Catalog</a>
                 <a href="contact.html" class="nav-item nav-link">Contact Us</a>
             <a href="index.html" class="btn btn-primary rounded-0 py-4 px-lg-5 d-none d-lg-block">Get A Quotation<i class="fa fa-arrow-right ms-3"></i></a>
         </div>
@@ -91,7 +90,7 @@
     <!-- Page Header Start -->
     <div class="container-fluid page-header py-5 mb-5">
         <div class="container py-5">
-            <h1 class="display-3 text-white mb-3 animated slideInDown">Pacakges</h1>
+            <h1 class="display-3 text-white mb-3 animated slideInDown">Catalogs</h1>
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
@@ -108,26 +107,67 @@
     <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                <h6 class="text-primary">Our Pacakges</h6>
-                <h1 class="mb-4">Hybrid Solar Pacakage</h1>
+                <h6 class="text-primary">Our Catalogs</h6>
+                <h1 class="mb-4">Visit Our Latest Catalogs</h1>
             </div>
             <div class="row mt-n2 wow fadeInUp" data-wow-delay="0.3s">
                 <div class="col-12 text-center">
                     <ul class="list-inline mb-5" id="portfolio-flters">
-                        <li class="mx-2" data-filter=".first">Hybrid Solar</li>
+                        <li class="mx-2 active" data-filter="*">All</li>
+                        <li class="mx-2" data-filter=".first">On-Grid</li>
+                        <li class="mx-2" data-filter=".second">Hybrid </li>
+                        <li class="mx-2" data-filter=".third">Industrial </li>
+                        <li class="mx-2" data-filter=".forth">Agricultural </li>
                     </ul>
                 </div>
             </div>
             <div class="row g-4 portfolio-container wow fadeInUp" data-wow-delay="0.5s">
-                <div class="col-lg-6 col-md-6 portfolio-item first">
+                <div class="col-lg-3 col-md-6 portfolio-item first">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/img-600x400-6.jpg" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href="img/img-600x400-6.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href="catalogOnGrid.html"><i class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="pt-3">
+                        <p class="text-primary mb-0">On-Grid Solar</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 portfolio-item second">
                     <div class="portfolio-img rounded overflow-hidden">
                         <img class="img-fluid" src="img/img-600x400-5.jpg" alt="">
                         <div class="portfolio-btn">
-                            <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href="img/img-600x400-6.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href="img/img-600x400-5.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href="catalogHybrid.html"><i class="fa fa-link"></i></a>
                         </div>
                     </div>
                     <div class="pt-3">
                         <p class="text-primary mb-0">Hybrid Solar</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 portfolio-item third">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/industrial.jpg" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href="img/industrial.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href="catalogIndustrial.html"><i class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="pt-3">
+                        <p class="text-primary mb-0">Industrial Solar</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 portfolio-item forth">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/agricultueral.jpg" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href="img/agricultueral.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href="catalogAgriculture.html"><i class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="pt-3">
+                        <p class="text-primary mb-0">Agricultural Solar</p>
                     </div>
                 </div>
             </div>
@@ -158,8 +198,8 @@
                     <h5 class="text-white mb-4">Quick Links</h5>
                     <a class="btn btn-link" href="about.html">About Us</a>
                     <a class="btn btn-link" href="contact.html">Contact Us</a>
-                    <a class="btn btn-link" href="catelog.html">Our Catalog</a>
-                    <a class="btn btn-link" href="package.html">Terms & Condition</a>
+                    <a class="btn btn-link" href="catalog.html">Our Catalog</a>
+                    <a class="btn btn-link" href="about.html">Terms & Condition</a>
                     <a class="btn btn-link" href="index.html">Support</a>
                 </div>
                 <div class="col-lg-4 col-md-6">
