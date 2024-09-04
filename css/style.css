@@ -32,6 +32,9 @@
     z-index: 99;
 }
 
+.logo_text{
+    font-size: 12px !important;
+}
 
 /*** Spinner ***/
 #spinner {
