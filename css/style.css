@@ -77,6 +77,22 @@
     height: 48px;
 }
 
+.Pacakges_Cards {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.Pacakges_Cards .card-body {
+    transition: color 0.3s ease;
+}
+.Pacakges_Cards:hover {
+    background-color: var(--primary);
+}
+.Pacakges_Cards:hover .card-body h4,
+.Pacakges_Cards:hover .card-body h5,
+.Pacakges_Cards:hover .card-body p {
+    color: white !important;
+    cursor: pointer;
+}
+
 .btn-square,
 .btn-sm-square,
 .btn-lg-square {
